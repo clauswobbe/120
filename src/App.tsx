@@ -50,10 +50,16 @@ export default function App() {
           <p className="text-2xl text-stone-300 font-light mb-2">
             Lone &amp; Peter
           </p>
-          <p className="text-stone-400 text-lg mt-6">
+          <p className="text-stone-300 text-lg mt-6 leading-relaxed">
+            Tillykke med de 60 år — hver!
+          </p>
+          <p className="text-stone-400 text-base mt-2">
+            Vi glæder os til at fejre jer nu, og til at opleve en god aften sammen i Odense.
+          </p>
+          <p className="text-stone-500 text-sm mt-6">
             En gave fra Anna Marie &amp; Claus
           </p>
-          <div className="mt-8 inline-block border border-stone-600 rounded-full px-6 py-2 text-stone-300 text-sm">
+          <div className="mt-4 inline-block border border-stone-600 rounded-full px-6 py-2 text-stone-300 text-sm">
             2 × koncertbilletter + hotelovernatning i Odense
           </div>
         </div>
@@ -145,7 +151,7 @@ export default function App() {
         </section>
 
         {/* QR code */}
-        <section className="text-center">
+        <section className="text-center pt-24">
           <h2 className="text-2xl font-bold text-stone-800 mb-2">
             Del siden
           </h2>
