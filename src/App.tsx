@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { QRCodeSVG } from 'qrcode.react'
+import { PinScreen } from './components/PinScreen.tsx'
 
 const SITE_URL = 'https://120.wobtop.com'
 
@@ -35,7 +36,12 @@ const concerts = [
 ]
 
 export default function App() {
+  const [unlocked, setUnlocked] = useState(() => sessionStorage.getItem('unlocked') === '1')
   const [showQR, setShowQR] = useState(false)
+
+  if (!unlocked) {
+    return <PinScreen onUnlock={() => setUnlocked(true)} />
+  }
 
   return (
     <div className="min-h-screen bg-stone-50 font-sans">

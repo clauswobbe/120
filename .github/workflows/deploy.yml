@@ -18,6 +18,8 @@ jobs:
       - run: npm ci --legacy-peer-deps
 
       - run: npm run build
+        env:
+          VITE_ACCESS_CODE: ${{ secrets.VITE_ACCESS_CODE }}
 
       - name: Upload via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
