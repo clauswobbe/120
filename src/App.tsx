@@ -8,7 +8,7 @@ const concerts = [
     id: 'whitney',
     artist: 'Whitney Houston Show',
     subtitle: 'The Greatest Love of All',
-    date: 'Torsdag 9. april 2027',
+    date: 'Fredag 9. april 2027',
     venue: 'Odeon, Odense',
     description:
       'En hyldestkoncert til en af verdens mest elskede sangerinder. Oplev Whitneys største hits — fra "I Will Always Love You" til "Greatest Love of All" — med et stort liveband og en stjernestøbt vokal.',
@@ -22,7 +22,7 @@ const concerts = [
     id: 'dire',
     artist: 'A Tribute to Dire Straits',
     subtitle: 'Money for Nothing • Sultans of Swing',
-    date: 'Torsdag 23. april 2027',
+    date: 'Fredag 23. april 2027',
     venue: 'Odeon, Odense',
     description:
       'En autentisk hyldestkoncert til Dire Straits med alle de store klassikere. Mark Knopflers ikoniske guitarspil og bandets unikke sound genoplives i et spektakulært show.',
